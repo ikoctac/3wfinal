@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url('big_picture.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+nav {
+  background-color: #ddd;
+  padding: 1em;
+  overflow: hidden;
+}
+
+nav a {
+  float: left;
+  display: block;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+}
+
+nav a:hover {
+  background-color: #555;
+  color: white;
+}
+
+aside {
+  float: left;
+  width: 25%;
+  padding: 1em;
+  background-color: #f1f1f1;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+main {
+  float: left;
+  width: 75%;
+  padding: 1em;
+  margin: auto; 
+}
+
+footer {
+  clear: both;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+.content-section {
+  display: none;
+}
+
+.content-section.active {
+  display: block;
+}
+
+.photo-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.photo-item {
+  margin: 10px;
+}
+
+.photo-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.main-content {
+  float: left;
+  width: 70%;
+  padding: 20px;
+}
+#links ul {
+  list-style: none;
+  padding: 0;
+}
+
+#links li {
+  margin-bottom: 10px;
+}
+
+#links a {
+  color: #007BFF;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+#links a:hover {
+  color: #0056b3;
+}
